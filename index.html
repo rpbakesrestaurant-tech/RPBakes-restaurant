@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RP BAKES & RESTAURANT</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header" id="header">
+      <div class="header-inner">
+        <a href="#hero" class="logo-block">
+          <img
+            src="./images/RPLogo.png"
+            alt="RP BAKES & RESTAURANT logo"
+            class="logo-img"
+          />
+          <span class="logo-name">RP BAKES &amp; RESTAURANT</span>
+        </a>
+
+        <a href="#contact" class="header-contact">
+          <span class="header-contact-icon" aria-hidden="true">📞</span>
+          <span class="header-contact-text">Contact Us</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO / FRONT PAGE -->
+      <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-logo-wrap">
+            <img
+              src="./images/RPLogo.png"
+              alt="RP BAKES & RESTAURANT logo"
+              class="hero-logo"
+            />
+          </div>
+          <p class="hero-tagline">Freshly made, deliciously served</p>
+          <h1 class="hero-title">RP BAKES &amp; RESTAURANT</h1>
+          <p class="hero-sub">Tiffen • Bakes • Rice • Juices • Gravies</p>
+
+          <div class="hero-cta">
+            <a href="#menu" class="btn btn-primary">
+              <span class="btn-icon" aria-hidden="true">📜</span>
+              <span>View Full Menu</span>
+            </a>
+            <a
+              href="https://chat.whatsapp.com/Jr8dJPhtDyf32nSNwh885y"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-secondary btn-whatsapp"
+            >
+              <span class="btn-icon" aria-hidden="true">💬</span>
+              <span>Join WhatsApp Group</span>
+            </a>
+            <a
+              href="https://g.page/r/CUM7tCOhqvGgEBI/review"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-secondary btn-feedback"
+            >
+              <span class="btn-icon" aria-hidden="true">📝</span>
+              <span>Give Feedback</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary btn-location">
+              <span class="btn-icon" aria-hidden="true">📍</span>
+              <span>View Location</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <p class="hero-location">
+              Landmark: Thalakottaparai, KG Chavadi, V-Guard, Palakkad main road, Coimbatore-105.
+            </p>
+            <p class="hero-phone">
+              Call for orders:  +91 88706 15888  /  +91 81108 61588
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- HIGHLIGHTED ITEMS -->
+      <section class="highlights" id="highlights">
+        <div class="container">
+          <h2 class="section-title">Highlights</h2>
+          <p class="section-subtitle">
+            Signature dishes our guests love the most.
+          </p>
+          <div class="highlights-grid" id="highlightsGrid">
+            <!-- Cards injected by script.js from highlighted_items JSON -->
+          </div>
+        </div>
+      </section>
+
+      <!-- MENU -->
+      <section class="menu" id="menu">
+        <div class="container">
+          <div class="menu-header">
+            <div>
+              <h2 class="section-title">Our Menu</h2>
+              <p class="section-subtitle">
+                Explore all your favourites – from tiffen to juices.
+              </p>
+            </div>
+            <a
+              href="./images/menu.png"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-outline"
+            >
+              View Menu (PDF)
+            </a>
+          </div>
+
+          <div class="menu-grid" id="menuGrid">
+            <!-- Categories injected by script.js from menu JSON -->
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT & LOCATION -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact &amp; Location</h2>
+          <div class="contact-grid">
+            <div class="contact-info" data-animate>
+              <h3>Get in Touch</h3>
+              <p class="contact-phone">
+                <a href="tel:+918870615888">+91 88706 15888</a>
+              </p>
+              <a href="tel:+918870615888" class="btn btn-primary">
+                <span class="btn-icon" aria-hidden="true">📞</span>
+                <span>Call Now</span>
+              </a>
+              <a
+                href="https://wa.me/8870615888"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-secondary contact-whatsapp"
+              >
+                <span class="btn-icon" aria-hidden="true">💬</span>
+                <span>Chat on WhatsApp</span>
+              </a>
+              <p class="contact-share">
+                For party orders, bulk bookings and special occasions, contact
+                us anytime.
+              </p>
+            </div>
+
+            <div class="contact-location" data-animate>
+              <h3>Find Us</h3>
+              <p class="contact-address">
+                RP BAKES &amp; RESTAURANT<br />
+                Thalakottaparai,<br />
+                KG Chavadi, V-Guard,<br />
+                Palakkad main road,<br>
+                Coimbatore-105.
+              </p>
+              <div class="map-placeholder">
+                <!-- Replace iframe src with your exact Google Maps embed link -->
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.3668569530264!2d76.888849!3d10.871020699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba84300130edba3%3A0xa0f1aaa123b43b43!2sRP%20BAKES%20AND%20RESTAURANT%20(Veg%20%26%20Non-Veg)!5e1!3m2!1sen!2sin!4v1772948350607!5m2!1sen!2sin" 
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+               </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="footer-copy">
+          &copy; <span id="currentYear"></span> RP Bakes &amp; Restaurant. All
+          rights reserved.
+        </p>
+        <p class="footer-tagline">Freshly made, deliciously served</p>
+        <a href="#hero" class="footer-back">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
